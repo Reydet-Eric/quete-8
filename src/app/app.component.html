@@ -1,0 +1,5 @@
+<h1>Base de données des onomatopées</h1>
+<h2>C'est super secret, ne le dites a personne !!!!!!!!!!!</h2>
+<div *ngFor="let item of onomatopoeiaList" >{{item}}</div>
+
+<app-create-onomatopia (sendOnomatopiaToParent)="onReceiveNewOnomatopia($event)"></app-create-onomatopia>
